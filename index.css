@@ -1,0 +1,30 @@
+body{
+    background-color: #999D9E;
+    color: white;
+    font-weight:lighter;
+    font-family: sans-serif;
+}
+#nav-bar-left{
+    padding-left: 80px;
+    padding-top: 18px;
+    font-size: 35px;
+}
+#nav-bar-right{
+    padding-right: 50px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+#nav-bar-work{
+    padding-right: 70px;
+}
+#nav-bar-about{
+    padding-right: 70px;
+}
+#nav-bar-contact{
+    padding-right: 70px;
+}
+#photo{
+    padding-top: 0px;
+    width: 100px;
+    border-radius: 50px;
+}
