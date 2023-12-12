@@ -1,6 +1,6 @@
 body{
-    background-color: #999D9E;
-    color: white;
+    background-color: whitesmoke;
+    color: rgb(66,66,66);
     font-weight:lighter;
     font-family: sans-serif;
 }
@@ -14,7 +14,7 @@ body{
     padding-top: 50px;
     font-size: 25px;
 }
-#nav-bar-work{
+#nav-bar-portfolio{
     padding-right: 70px;
 }
 #nav-bar-about{
@@ -28,3 +28,10 @@ body{
     width: 100px;
     border-radius: 50px;
 }
+#nav-bar-home{
+    padding-right: 70px;
+}
+#nav-bar-button{
+    padding-right: 70px;
+}
+

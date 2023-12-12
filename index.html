@@ -7,23 +7,37 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-    <div style="display: flex;justify-content: space-between;" id="nav-bar">
-        <div id="nav-bar-left">
-            <div>
-                <img src="profile_pic-1.jpg" id="photo">
+        <nav class="navbar">
+            <div style="display: flex;justify-content: space-between;" id="nav-bar">
+                <div id="nav-bar-left">
+                    <div>
+                        <img src="profile_pic-1.jpg" id="photo">
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: space-between;"  id="nav-bar-right">
+                    <div id= "nav-bar-portfolio">
+                        <a>
+                            My Portfolio
+                        </a>
+                    </div>
+                    <div id="nav-bar-about">
+                        <a href="about.html"> 
+                            About
+                        </a>
+                    </div> 
+                    <div id="nav-bar-contact">
+                        <a>
+                            Contact
+                        </a>
+                    </div>
+                    <div id="nav-bar-button">
+                        <button id="color-change" onclick="mode()">
+                            Color Change
+                        </button>
+                    </div>
+                </div> 
             </div>
-        </div>
-        <div style="display: flex;justify-content: space-between;"  id="nav-bar-right">
-            <div id= "nav-bar-work">
-                Work
-            </div>
-            <div id="nav-bar-about">
-                About
-            </div> 
-            <div id="nav-bar-contact">
-                Contact
-            </div>
-        </div> 
-    </div>
+        </nav>
+    <script src="index.js"></script>
     </body>
 </html>
