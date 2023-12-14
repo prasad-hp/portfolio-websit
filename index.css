@@ -34,4 +34,11 @@ body{
 #nav-bar-button{
     padding-right: 70px;
 }
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
 
