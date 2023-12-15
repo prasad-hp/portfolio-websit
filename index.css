@@ -1,6 +1,6 @@
 body{
-    background-color: whitesmoke;
-    color: rgb(66,66,66);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight:lighter;
     font-family: sans-serif;
 }
@@ -34,11 +34,15 @@ body{
 #nav-bar-button{
     padding-right: 70px;
 }
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
-  }
-
+#icon{
+    background-color: var(--primary-color);
+    width: 30px;
+}
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+}
+.dark-theme{
+    --primary-color:black;
+    --secondary-color:white;
+}
