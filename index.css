@@ -41,8 +41,34 @@ body{
 :root{
     --primary-color: white;
     --secondary-color: black;
+    --third-color: red;
 }
 .dark-theme{
     --primary-color:black;
     --secondary-color:white;
+    --third-color: red;
+}
+.light-theme{
+    --primary-color: white;
+    --secondary-color: black;
+    --third-color: gray;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: var(--third-color);
+}
+#about-me{
+    border: solid;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 15px;
+    
+}
+h1{
+    text-align: center;
 }
