@@ -1,0 +1,29 @@
+body{
+    background-image: url(background.jpg);
+    background-position: 100%;
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+#question{
+    font-style: italic;
+}
+h1{
+    color: goldenrod;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 50px;
+}
+button{
+    background-color: goldenrod;
+    color: #016f32;
+    width: 150px;
+    font-weight: bolder;
+    height: 40px;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 5px;
+}
