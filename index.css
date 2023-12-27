@@ -81,3 +81,9 @@ h1{
 h2{
     text-align: center;
 }
+#background-image{
+    margin: auto;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
